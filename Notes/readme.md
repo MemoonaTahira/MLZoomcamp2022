@@ -5,10 +5,11 @@ Refresher on Linear Algebra and exploring numpy/python functions for matrix mult
 
 ### Week 1+2 overview: Structuring a Machine Learning Project
 
-![MLZoomcamp_crisp-dm_x3](https://github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/imgs/MLZoomcamp_crisp-dm_x1.png)
+![MLZoomcamp_crisp-dm_x1](https://github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/imgs/MLZoomcamp_crisp-dm_x1.png)
 
 [Click here for a high resolution image](https://github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/imgs/MLZoomcamp_crisp-dm_x2.png)
 
+### Week 3 overview: EDA + Feature Engineering
 
 ![MLZoomcamp_EDA_x1](https://github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/imgs/MLZoomcamp_EDA_x1.png)
 
