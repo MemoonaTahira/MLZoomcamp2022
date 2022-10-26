@@ -136,7 +136,7 @@ This readme has the week-wise topic breakdown taken from the MLZoomcamp repo, fo
 
 ### Notes: [Click here](./Week_7-production_ready_deployment_bentoML/readme.md)
 
-### Homework Solution:  [Click here](../HW/HW7/giphy.gif)
+### Homework Solution:  [Click here](../HW/HW7/)
 
 ### Topics covered: 
 
