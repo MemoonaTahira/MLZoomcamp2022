@@ -194,7 +194,7 @@ tree
  # make sure you have bentoml serve --production running in one tab in the folder from where you ran the bentoml build
 # comamands (which bentofile.yaml to build the model, which in turn used service.py)
 
-bentml serve --production
+bentoml serve --production
 # open another tab and run:
 locust -H http://localhost:3000
 # do load testing.
