@@ -8,3 +8,5 @@
 4. Once the model is found to be satisfactory, it then cantainerizes the bentoml model and again tests it locally via curl or Swagger UI.
 5. Finally, the container is deployed to cloud. We now have our production-ready service depoloyed to cloud.
 6. Bentoml container has fully functional API to interact with the the ML service.
+
+### 2. All relevant code files can be found here too: service.py, bentofile.yaml, locustfile.py!
