@@ -201,27 +201,6 @@ locust -H http://localhost:3000
 # make sure you have modified the train.ipynb to work to accept microbatching in async mode to create a more robust service if you haven't already (video 7.5)
 
 
-#### OPTIONAL - Speed up docker build: Only if you have an NVIDIA GPU + Windows 11 + WSL ready NVIDIA drivers
-# set up nvidia container runtime for building docker containers with GPU:
-# https://github.com/NVIDIA/nvidia-docker
-
-distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
-      && curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
-      && curl -s -L https://nvidia.github.io/libnvidia-container/$distribution/libnvidia-container.list | \
-            sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
-            sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
-
-
-sudo apt-get update
-sudo apt-get install -y nvidia-docker2
-# sudo systemctl restart docker
-# systemctl doesn't work with WSL, just start the docker srevice:
-sudo dockerd & 
-# hit enter once to exit the INFO message, the docker service will keep running in the background
-sudo docker run --rm --gpus all nvidia/cuda:11.0.3-base-ubuntu20.04 nvidia-smi
-# once done, run docker images to get image ID and then run:
-docker rmi <image ID>
-
 
 #### Build the docker image:
 cd 
