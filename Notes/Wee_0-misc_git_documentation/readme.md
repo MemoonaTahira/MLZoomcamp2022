@@ -1,4 +1,4 @@
 #  Steps to do a github PR:
 
 
-<img src ="github_PR.jpg" width = 200%>
+<img src ="github_PR.jpg" width = 150%>
