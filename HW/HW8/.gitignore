@@ -1,0 +1,5 @@
+/train
+/test
+*.zip
+notebook.ipynb
+.ipynb_checkpoints
