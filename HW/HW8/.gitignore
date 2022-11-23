@@ -3,3 +3,4 @@
 *.zip
 notebook.ipynb
 .ipynb_checkpoints
+.gitignore
