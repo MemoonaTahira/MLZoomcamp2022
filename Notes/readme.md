@@ -150,8 +150,6 @@ This readme has the week-wise topic breakdown taken from the MLZoomcamp repo, fo
 - 7.8 [Summary](07-bentoml-production/08-summary.md)
 
 
-
-# In progress:
 ## [Midterm Project](projects/#midterm-project)
 
 Putting everything we've learned so far in practice!
@@ -159,8 +157,9 @@ Putting everything we've learned so far in practice!
 
 ## 8. [Neural Networks and Deep Learning](08-deep-learning/)
 
-### Notes for Week 1: [Click here](Week_1-intro_to_ML_linear_algebra)
-### Homework for Week 2:  [Click here](../HW/HW1/)
+### Notes for Week 8: [Click here](./imgs/giphy.gif)
+
+### Homework for Week 8:  [Click here](../HW/HW8/HW8-Deep_learning_CNN.ipynb)
 ### Topics covered: 
 
 - 8.1 [Fashion classification](08-deep-learning/01-fashion-classification.md)
@@ -182,8 +181,8 @@ Putting everything we've learned so far in practice!
 
 ## 9. [Serverless Deep Learning](09-serverless/)
 
-### Notes for Week 1: [Click here](Week_1-intro_to_ML_linear_algebra)
-### Homework for Week 2:  [Click here](../HW/HW1/)
+### Notes for Week 1: [Click here](./imgs/giphy.gif)
+### Homework for Week 2:  [Click here](../HW/HW9/)
 ### Topics covered: 
 
 - 9.1 [Introduction to Serverless](09-serverless/01-intro.md)
@@ -196,12 +195,12 @@ Putting everything we've learned so far in practice!
 - 9.8 [Summary](09-serverless/08-summary.md)
 - 9.9 [Explore more](09-serverless/09-explore-more.md)
 
-
+# In progress
 
 ## 10. [Kubernetes and TensorFlow Serving](10-kubernetes/)
 
-### Notes for Week 1: [Click here](Week_1-intro_to_ML_linear_algebra)
-### Homework for Week 2:  [Click here](../HW/HW1/)
+### Notes for Week 10: [Click here](./imgs/giphy.gif)
+### Homework for Week 10:  [Click here](../HW/HW10/)
 ### Topics covered: 
 
 - 10.1 [Overview](10-kubernetes/01-overview.md)
@@ -219,8 +218,8 @@ Putting everything we've learned so far in practice!
 
 ## 11. [KServe](11-kserve/) (optional)
 
-### Notes for Week 1: [Click here](Week_1-intro_to_ML_linear_algebra)
-### Homework for Week 2:  [Click here](../HW/HW1/)
+### Notes for Week 11: [Click here](./imgs/giphy.gif)
+### Homework for Week 11:  [Click here](../HW/HW11/)
 ### Topics covered: 
 
 - 11.1 [Overview](11-kserve/01-overview.md)
