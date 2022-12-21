@@ -11,13 +11,14 @@ url = 'http://0.0.0.0:9696/predict'
 # url = 'http://172.30.58.76:9696/predict'
 
 
+# General format: requests.post(url, json= credit_user)
+response = requests.post(url, json= credit_user).json()
+
+# For autoscaling:
 # while True:
 #     sleep(0.1)
 #     response = requests.post(url, json=client).json()
 #     print(response)
-
-# requests.post(url, json= credit_user)
-response = requests.post(url, json= credit_user).json()
 
 print(response)
 
