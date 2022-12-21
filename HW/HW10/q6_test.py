@@ -1,10 +1,10 @@
 import requests
 
 user_id = 'abc_012'
-credit_user = {"reports": 0, "share": 0.001694,"expenditure": 0.12, "owner": "yes"}
+# credit_user = {"reports": 0, "share": 0.001694,"expenditure": 0.12, "owner": "yes"}
+credit_user = {"reports": 0, "share": 0.245, "expenditure": 3.438, "owner": "yes"}
 
 # Runs on all 4!
-
 url = 'http://0.0.0.0:9696/predict'
 # url = 'http://localhost:9696/predict'
 # url = 'http://127.0.0.1:9696/predict'
