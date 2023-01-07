@@ -1,4 +1,4 @@
-#  Steps to do a github PR:
+#  Connecting GitHub and Saturn Cloud to Code editors like VSCode:
 
 
-<img src ="github_PR.jpg" width = 60%>
+<img src ="MLZoomcamp_SSH_x1.png.jpg" width = 60%>
