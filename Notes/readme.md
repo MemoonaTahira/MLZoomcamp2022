@@ -1,5 +1,7 @@
 This readme has the week-wise topic breakdown taken from the MLZoomcamp repo, for easy access and tracking progress for the duration of the bootcamp, and the link to my notes and homework solutions for each week.
 
+## 0. Miscelleanous commands for git, bash and using different cloud notebooks:
+### [Click here](./Wee_0-misc_git_documentation/readme.md)
 
 ## 1. [Introduction to Machine Learning](01-intro/)
 
