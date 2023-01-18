@@ -7,4 +7,4 @@
 
 # Github rebase and pull request procedure:
 
-<img src ="github_PR.png" width = 100%>
+<img src ="github_PR.jpg" width = 100%>
