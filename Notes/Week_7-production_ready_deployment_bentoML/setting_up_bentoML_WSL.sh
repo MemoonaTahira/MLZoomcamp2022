@@ -219,7 +219,8 @@ bentoml containerize credit_risk_classifier:qlkhqrsqv6kpeaav
 
 
 #### Only do this portion if it gives you an error about missing docker plugins:
-# P.S. Trying to install docker compose plugins on its own didnt work:https://docs.docker.com/compose/install/linux/
+# P.S. Trying to install docker compose plugins on its own didnt work as instruced here:https://docs.docker.com/compose/install/linux/
+# Instead, running the whole portion below solved the problem.
 # More info: https://docs.docker.com/engine/install/ubuntu/#set-up-the-repository
 
 sudo apt-get update
