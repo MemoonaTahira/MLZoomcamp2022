@@ -27,5 +27,5 @@ Please see infrographic below to see how it comes together.
  Have a look at the infograhpic below to see options to connect GitHub to ML platforms, and how they can interact with each other:
  
 
-<img src ="Central_Github.png" width = 100%>
+<img src ="Central_Github_x2.png" width = 100%>
 
