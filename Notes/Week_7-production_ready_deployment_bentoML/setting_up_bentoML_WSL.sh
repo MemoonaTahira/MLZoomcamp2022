@@ -19,7 +19,7 @@
 	# serve it locally with docker and test from Swagger UI or the terminal
 
 # ignore the next block:
-#### Preventing autoamatic execution of this script if someone runs it:
+#### Preventing automatic execution of this script if someone runs it:
 echo "This is not meant to be an executable shell script. Please open this file in a text editor or VSCode and run the commands one by one"
 echo "Press any key to exit"
 read -n 1  "key"
