@@ -275,7 +275,7 @@ From now on, everything you need to do is inside the Ubuntu terminal (and not cm
          docker run hello-world
          ```
 
-
+   - For additional docker compose plugins installation, please see [here](https://github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/Week_7-production_ready_deployment_bentoML/setting_up_bentoML_WSL.sh). (Code lines 221 - 241). This part is not needed until week 7 of BentoML. BentoML requires some of these plugins.
    - Or alternatively, install Docker Desktop for Windows, which is an easier installation and you can access the docker command inside WSL. You can find help [here](https://docs.docker.com/desktop/windows/wsl/).
 10. **Dockerize the flask app** 
 11. **Again deploy the docker container locally** 
