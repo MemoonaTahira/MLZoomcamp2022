@@ -1,3 +1,11 @@
+# Installing tensorflow with WSL:
+
+Please see the [detailed guide](https://medium.com/@MemoonaTahira/installing-tensorflow-with-gpu-support-on-windows-wsl-in-2022-a9c4a064678b) on Medium:
+<p align="center">
+  <a href="https://medium.com/@MemoonaTahira/installing-tensorflow-with-gpu-support-on-windows-wsl-in-2022-a9c4a064678b"><img src="./medium_logo.png" height="50" /></a>
+</p>
+
+
 #  Connecting GitHub to Code editors like VSCode and Pycharm:
 
 Often when we work on our local code editors, we want to push our code to GitHub to use it as a central place for storing our code. This way, if we switch computers, or start using a new cloud platform, we can easily get code and data from Github and store any changes back to GitHub. Next time, when we work on our local computers again, all we need to do is sync our GitHub data with the local computer. 
