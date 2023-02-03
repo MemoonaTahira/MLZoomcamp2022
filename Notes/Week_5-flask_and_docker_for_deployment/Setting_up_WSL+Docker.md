@@ -123,7 +123,7 @@ From now on, everything you need to do is inside the Ubuntu terminal (and not cm
 
    - Hit enter till you reach end of agreement, type *yes*, hit *enter* to keep default installation location, type *yes* to `init conda`
 
-   - Once done, open another ubuntu tab, and close the first tab for conda to become visible in the terminal. (Kind of like restarting a computer if we were using a real Ubuntu OS) 
+   - Once done, open another Ubuntu tab, and close the first tab for conda to become visible in the terminal. (Kind of like restarting a computer if we were using a real Ubuntu OS) 
 
    - Create a new conda environment:
    - ![image](https://user-images.githubusercontent.com/41547742/194419793-6605e12c-944f-4867-a511-499eedc650a5.png)
@@ -278,7 +278,8 @@ From now on, everything you need to do is inside the Ubuntu terminal (and not cm
          which docker-compose
          # check if docker command is working:
          sudo docker run hello-world
-         # add our user to docker group, to avoid using sudo everytime before docker
+         # add our user to docker group, to avoid using sudo everytime before docker. Replace $USER with your Ubuntu username
+         # e.g. sudo usermod -aG docker mona
          sudo usermod -aG docker $USER
          logout
          # run hello-world command again to see if it worked:
