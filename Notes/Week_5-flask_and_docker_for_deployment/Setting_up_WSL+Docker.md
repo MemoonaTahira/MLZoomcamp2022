@@ -69,6 +69,17 @@ To download Windows Terminal: [Click here](https://learn.microsoft.com/en-us/win
 
    - (P.S. The name of the of the Ubuntu app and on the tab in the terminal isn't changed with an upgrade from 20.04 to 22.04, it will still be Ubuntu-20.4, so don't worry about it.) 
 
+   - In case you didn't need to upgrade the Ubuntu distro, it is still a good idea to check for updates:
+   - ```
+      sudo apt update && sudo apt upgrade
+      # remove packages that failed to install:
+      sudo apt-get autoclean
+      # clean apt cache:
+      sudo apt-get clean
+      # remove software dependencies that are no longer needed:
+      sudo apt-get autoremove
+      ```
+   
 
 ## Setting up pipenv, optionally with miniconda
 From now on, everything you need to do is inside the Ubuntu terminal (and not cmd etc).
