@@ -117,8 +117,7 @@ From now on, everything you need to do is inside the Ubuntu terminal (and not cm
    - Run the following commands one by one:
 
       -  ```
-         curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh --output
-         miniconda_installer.sh
+         curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh --output miniconda_installer.sh
          bash miniconda_installer.sh
          ```
 
