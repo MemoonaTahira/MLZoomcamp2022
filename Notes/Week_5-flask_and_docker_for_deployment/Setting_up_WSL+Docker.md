@@ -20,8 +20,11 @@ The aim of this guide is to replicate the exact working environment as shown in 
    - ![image](https://user-images.githubusercontent.com/41547742/194409098-2b6fd63d-ae20-443e-a216-f8cd3e6439a3.png)
    - Run the following commands one by one"
       - ```
+         # To install the latest default distro, only works for first time WSL install:
          wsl --install  
+         # OR if you want to manually choose which Ubuntu distro to install:
          wsl --list --online  
+         # Choose whichever distro you want, at the time of writing, latest available is Ubuntu 20.04
          wsl --install -d Ubuntu-20.04 
          wsl -l -v  
          wsl --set-version Ubuntu 2  
@@ -37,13 +40,14 @@ The aim of this guide is to replicate the exact working environment as shown in 
 
 5. Use Ubuntu bash shell with Windows Terminal as it has a cleaner layout and better customization options.
 To download Windows Terminal: [Click here](https://learn.microsoft.com/en-us/windows/terminal/install)
-   - Use the small arrow next to the + tab to select ubuntu terminal (with a penguin :penguin: on it) to get started.
    - Find it by typing 'terminal' in start menu
    -  ![194554655-ae74eb43-bc06-42c6-a2ab-591d6d29509d](https://user-images.githubusercontent.com/41547742/194722914-f2b27b15-8e0b-4c1b-ac9c-2e2ae75e57d5.png)
 
    - open the terminal
+   - Use the small arrow next to the + tab to select ubuntu terminal (with a penguin :penguin: on it) to get started.
+
    
-6. Next, upgrade Ubuntu 20.04 to 22.04 distro using this guide [here](https://linuxconfig.org/how-to-upgrade-ubuntu-to-22-04-lts-jammy-jellyfish) from the terminal:
+6. Next, upgrade Ubuntu 20.04 to 22.04 distro (since it isn't available yet from wsl --list --online) using this guide [here](https://linuxconfig.org/how-to-upgrade-ubuntu-to-22-04-lts-jammy-jellyfish) from the terminal:
 
    - ![image](https://user-images.githubusercontent.com/41547742/194409522-eda361a7-78db-4dbc-aaf1-46619e2b0433.png)
 
