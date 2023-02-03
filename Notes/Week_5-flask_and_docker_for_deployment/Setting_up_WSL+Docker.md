@@ -22,8 +22,10 @@ The aim of this guide is to replicate the exact working environment as shown in 
       - ```
          # To install the latest default distro, only works for first time WSL install:
          wsl --install  
+         
          # OR if you want to manually choose which Ubuntu distro to install:
          wsl --list --online  
+         
          # Choose whichever distro you want, at the time of writing, latest available is Ubuntu 20.04
          wsl --install -d Ubuntu-20.04 
          wsl -l -v  
