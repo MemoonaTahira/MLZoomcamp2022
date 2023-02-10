@@ -193,18 +193,20 @@ From now on, everything you need to do is inside the Ubuntu terminal (and not cm
 
    - ![image](https://user-images.githubusercontent.com/41547742/194425469-a07d7d95-84af-47e0-b6f4-9a3831bd1b5b.png)
 
-   - For using VScode: Install the remote developer extension. 
+   - For using VScode: Install the remote developer extension: 
 
    - ![image](https://user-images.githubusercontent.com/41547742/194425639-c2a11115-a99d-4211-a463-19c07afbc19b.png)
 
    - Once done: 
 
    - ![5](https://user-images.githubusercontent.com/41547742/194429048-e8674daa-1966-490f-a5cf-55ccc31bace9.png)
-
-   - Select your project folder and open it. 
+   - 
+   - Select your project folder and open it:
 
    - ![image](https://user-images.githubusercontent.com/41547742/194426920-a9963fec-e20a-4840-ad61-fa522c0b33c1.png)
 
+   - (Quick tip: Alternatively you can combine the above two steps from the bash terminal in WSL, by running `code .` which will open a VSCode window in the current WSL folder after a short VSCode server installation. Make sure to do these steps after the Remote Developer extension installation. VSCode needs to be on the PATH, which it will be with default installation. In case you have some trouble, you can double check if it is on the path or not.)
+   
    - Next, clone the mlbookcamp repo, and code week 5 code to churn-flask-app without overwriting the Pipfile and Pipfile.lock:
    - ![image](https://user-images.githubusercontent.com/41547742/194729052-46b41a70-d3f8-4377-9b4f-3fb07d0ccaa2.png)
    - ![image](https://user-images.githubusercontent.com/41547742/194729186-1453712e-3b68-4476-ba6e-592b8fd40339.png)
