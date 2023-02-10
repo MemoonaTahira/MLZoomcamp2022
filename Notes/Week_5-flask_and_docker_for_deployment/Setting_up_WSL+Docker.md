@@ -186,31 +186,26 @@ From now on, everything you need to do is inside the Ubuntu terminal (and not cm
 
 ## Setting up Jupyter Notebook and VSCode with WSL:
 6. **Connect jupyter notebook / VScode to WSL.** 
-   - For jupyter notebook, simply type `jupyter notebook` in the Ubuntu terminal, 
-   and copy the token it generates and paste it in Chrome in Windows. (P.S. In my case, it automatically opened a chrome browser window, yaay!)
+   - For jupyter notebook, simply type `jupyter notebook` in the Ubuntu terminal, and copy the token it generates and paste it in Chrome in Windows. (P.S. In my case, it automatically opened a chrome browser window, yaay!)
    
    - ![image](https://user-images.githubusercontent.com/41547742/194425039-04fc8935-434b-4058-aca7-d5b5733c1496.png)
-
    - ![image](https://user-images.githubusercontent.com/41547742/194425469-a07d7d95-84af-47e0-b6f4-9a3831bd1b5b.png)
-
+   
    - For using VScode: Install the remote developer extension: 
-
    - ![image](https://user-images.githubusercontent.com/41547742/194425639-c2a11115-a99d-4211-a463-19c07afbc19b.png)
-
+   
    - Once done: 
-
    - ![5](https://user-images.githubusercontent.com/41547742/194429048-e8674daa-1966-490f-a5cf-55ccc31bace9.png)
-   - 
+   
    - Select your project folder and open it:
-
    - ![image](https://user-images.githubusercontent.com/41547742/194426920-a9963fec-e20a-4840-ad61-fa522c0b33c1.png)
-
+   
    - (Quick tip: Alternatively you can combine the above two steps from the bash terminal in WSL, by running `code .` which will open a VSCode window in the current WSL folder after a short VSCode server installation. Make sure to do these steps after the Remote Developer extension installation. VSCode needs to be on the PATH, which it will be with default installation. In case you have some trouble, you can double check if it is on the path or not.)
    
    - Next, clone the mlbookcamp repo, and code week 5 code to churn-flask-app without overwriting the Pipfile and Pipfile.lock:
    - ![image](https://user-images.githubusercontent.com/41547742/194729052-46b41a70-d3f8-4377-9b4f-3fb07d0ccaa2.png)
    - ![image](https://user-images.githubusercontent.com/41547742/194729186-1453712e-3b68-4476-ba6e-592b8fd40339.png)
-
+   
    - Run these commands one by one:
       - ```
          git clone https://github.com/alexeygrigorev/mlbookcamp-code.git
@@ -219,25 +214,20 @@ From now on, everything you need to do is inside the Ubuntu terminal (and not cm
          ```
    - Next get data-week-3.csv as it is not the week 3 folder, copy it to churn-flask-app and rename it:
    - ![image](https://user-images.githubusercontent.com/41547742/194729373-4dce1f6f-e014-4856-a87c-ebe7d95a4500.png)
-
+   
    - Run the following one by one:
       - ```
          cp mlbookcamp-code/chapter-03-churn-prediction/WA_Fn-UseC_-Telco-Customer-Churn.csv churn-flask-app/
          cd churn-flask-app/
          mv WA_Fn-UseC_-Telco-Customer-Churn.csv data-week-3.csv
          ```
-
-
    - Add correct python interpreter. Also, in the terminal menu, click add new terminal and then type `pipenv shell`, and voila, you can use all WSL commands here if you need:
-
    - ![7](https://user-images.githubusercontent.com/41547742/194431431-1094414f-53d4-4585-9225-27b90d68c946.png)
    
    - Run code without debugging. (Iff vscode asks you to install the Python for WSL extension, do so). The output of train.py: 
-
    - ![image](https://user-images.githubusercontent.com/41547742/194432513-9f881fde-01fb-4516-afdf-8d6f70d08a09.png)
-
+   
    - Once you are done coding, and want to restore vscode to work with windows, click on the bottom left, and select terminate connection.
-
    - ![4](https://user-images.githubusercontent.com/41547742/194428461-c743f0b7-3ccb-4de2-9c07-180aa90c5617.png)   
 
 7. **Play with your code. You can also run the code entirely within Ubuntu terminal:**
